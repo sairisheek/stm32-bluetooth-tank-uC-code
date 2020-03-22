@@ -7,10 +7,6 @@
 #include <string.h>
 #include <stdio.h>
 
-// Initializes USART for each part of Lab 3A
-// part = 1: UART Communication with Termite
-// part = 2: Bluetooth Communication with Phone
-
 
 void USART1_IRQHandler(){
 	unsigned char buffer[32];
@@ -61,7 +57,6 @@ void Init_USARTx(int part) {
 
 int main(void) {
 	System_Clock_Init(); // Switch System Clock = 80 MHz
-	LED_Init();
 	
 	Init_USARTx(2);
 	PWM_Init();

@@ -1,10 +1,4 @@
-/*
- * ECE 153B - Winter 2020
- *
- * Name(s): Erick Rios , Sairisheek Muttukuru
- * Section:
- * Lab: 2A
- */
+
 
 #include "stm32l476xx.h"
 #include "PWM.h" 
